@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "./fonts/font.scss";
+@import "./scss/App.scss";
+//  ========App-Style=====================================================================================================================================::
+#root {
+	width: 100%;
+	font-family: Poppins;
+	color: #000000;
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
